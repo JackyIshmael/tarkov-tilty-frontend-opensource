@@ -12,7 +12,7 @@ type OmitImageConfig = Omit<ImageConfig, 'image'>;
 const Index = (props: OmitImageConfig & ImageProps) => {
   const { imageSrc } = props;
 
-  const [image, status] = useImage(imageSrc);
+  const [image, status] = useImage(imageSrc, 'anonymous', 'no-referrer');
 
   if (status === 'loaded') {
     return <Image image={image} {...props} />;

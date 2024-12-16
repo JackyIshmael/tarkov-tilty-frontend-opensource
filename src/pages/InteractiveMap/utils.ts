@@ -316,10 +316,10 @@ export const real2imagePos = (
 
 export const mouseHoverEvent = {
   onMouseOver: () => {
-    const stage = document.querySelector('.im-stage') as HTMLCanvasElement;
-    if (stage) {
-      stage.style.cursor = 'url(\'https://cdn.mahoutsukai.cn/assets/tarkov/cursor/genshin-nahida-and-a-thousand-floating-dreams-cursor.png\'), pointer';
-    }
+    // const stage = document.querySelector('.im-stage') as HTMLCanvasElement;
+    // if (stage) {
+    //   stage.style.cursor = 'url(\'https://cdn.mahoutsukai.cn/assets/tarkov/cursor/genshin-nahida-and-a-thousand-floating-dreams-cursor.png\'), pointer';
+    // }
   },
   onMouseLeave: () => {
     const stage = document.querySelector('.im-stage') as HTMLCanvasElement;
